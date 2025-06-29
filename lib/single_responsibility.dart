@@ -1,19 +1,17 @@
 // UMA CLASSE DEVE SER RESPONSÁVEL POR APENAS UMA COISA
 
 class Pagamentos {
-  void pagar(){
+  static void pagar() {
     print('pagamento realizado');
-    Comprovantes.gerarComprovante();
+    Pagamentos.pagar();
   }
 }
 
 class Comprovantes {
-  static void gerarComprovante(){
+  static void gerarComprovante() {
     print('gerarando comprovantes');
+    Comprovantes.gerarComprovante();
   }
 }
 
-void main(){
-  final Pagamentos pagamentos = Pagamentos();
-  pagamentos.pagar();
-}
+void main() {}
