@@ -1,16 +1,41 @@
-# solid
+SOLID representa cinco princípios fundamentais da programação orientada a objetos, que ajudam a criar sistemas mais organizados, flexíveis e fáceis de manter.
 
-A new Flutter project.
+#
 
-## Getting Started
+ S — Single Responsibility Principle (Princípio da Responsabilidade Única)
 
-This project is a starting point for a Flutter application.
+Uma classe deve ter apenas um motivo para mudar.
 
-A few resources to get you started if this is your first Flutter project:
+Cada classe deve ter apenas uma responsabilidade/função específica no sistema.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+#
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+ O — Open/Closed Principle (Princípio Aberto/Fechado)
+
+Entidades devem estar abertas para extensão, mas fechadas para modificação.
+
+Você deve poder adicionar novos comportamentos sem alterar o código existente.
+
+#
+
+L — Liskov Substitution Principle (Princípio da Substituição de Liskov)
+
+Subtipos devem poder substituir seus tipos base sem alterar o comportamento do sistema.
+
+Classes filhas devem manter o comportamento esperado das classes pai.
+
+#
+
+ I — Interface Segregation Principle (Princípio da Segregação de Interfaces)
+
+Muitas interfaces específicas são melhores do que uma interface única e genérica.
+
+Evite obrigar uma classe a implementar métodos que ela não utiliza.
+
+#
+
+ D — Dependency Inversion Principle (Princípio da Inversão de Dependência)
+
+Dependa de abstrações, não de implementações.
+
+Classes devem depender de interfaces ou classes abstratas, e não de classes concretas.
